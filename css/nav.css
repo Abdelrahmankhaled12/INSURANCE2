@@ -1,0 +1,53 @@
+.top_nav {
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 14px;
+}
+
+.top_nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0px 5px;
+}
+
+nav {
+  top: 0;
+  z-index: 105000;
+  background-color: white;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+
+nav .navbar-toggler {
+  background-color: var(--primary-color);
+}
+
+nav .navbar-toggler i {
+  color: white;
+  font-size: 31px;
+}
+
+nav .navbar-collapse li a.nav-link,
+nav .offcanvas li a.nav-link {
+  color: var(--primary-color);
+  font-size: 1.125rem;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+nav .navbar-collapse li.nav-item a.active,
+nav .offcanvas li.nav-item a.active {
+  color: var(--secondary-color);
+}
+
+nav .navbar-collapse li a.nav-link:hover,
+nav .navbar-collapse li a.nav-link:focus,
+nav .dropdown-toggle:focus,
+nav .offcanvas li a.nav-link:hover,
+nav .offcanvas li a.nav-link:focus {
+  color: var(--secondary-color);
+}
+
+nav .navbar-toggler:focus {
+  box-shadow: none;
+}
